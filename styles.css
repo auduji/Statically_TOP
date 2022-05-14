@@ -160,3 +160,15 @@ a {
     font-weight: 700;
     font-size: 24px;
 }
+
+.footer { 
+    background-color: #1F2937;
+    padding: 25px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.footer ul {
+    gap: 6px;
+}
