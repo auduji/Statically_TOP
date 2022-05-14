@@ -59,13 +59,25 @@ ul {
 }
 
 .sign-up { 
-    background-color: #3882F6;
-    color: white;
     border-radius: 5px;
-    padding: 6px 18px;
+    padding: 3px 9px;
     margin-top: 5px;
     cursor: pointer;
     font-size: 17px;
+    color: white;
+    flex: 0 0 auto;
+    width: 115px;
+    height: 35px;
+    font-weight: 700;
+}
+
+.one-sign-up {
+    background-color: #3882F6;
+}
+
+.sign-up-action {
+    background-color: #3882F6;
+    border: 2px solid white;
 }
 
 a { 
@@ -126,4 +138,25 @@ a {
     font-weight: 700;
     text-align: right;
 
+}
+
+.call-to-action {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 100px;
+}
+
+.modal {
+    background-color: #3882F6;
+    padding: 25px 60px;
+    display: flex;
+    gap:100px;
+    border-radius: 5px;
+}
+
+.action-head {
+    color: #F9FAF8;
+    font-weight: 700;
+    font-size: 24px;
 }
