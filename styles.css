@@ -92,7 +92,7 @@ a {
 .main {
     display: flex;
     flex-direction: column;
-    padding: 0 150px;
+    padding: 0 150px 100px;
 }
 
 
@@ -112,4 +112,18 @@ a {
 
 .main-sub-text {
     text-align: center;
+}
+
+.quote {
+    background-color: #E5E7EB;
+    color: #1F2937;
+    font-size: 36px;
+    padding: 100px;
+}
+
+.quote .attribute {
+    font-size: 24px;
+    font-weight: 700;
+    text-align: right;
+
 }
