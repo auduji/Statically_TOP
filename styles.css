@@ -4,12 +4,17 @@ body {
     min-height: 100vh;
     display: flex;
     flex-direction: column;
+    font-family: 'Roboto', sans-serif;
 }
 
 .header {
     background-color: #1F2937;
     color: white;
-    padding: 0 100px 25px;
+    padding: 0 150px 50px;
+    display: flex;
+    flex-direction: column;
+    gap: 40px;
+
 }
 
 
@@ -51,9 +56,9 @@ ul {
     font-weight: 700;
 }
 
-.image {
+img {
     border: 2px solid white;
-    width: 375px;
+    width: 450px;
     height: auto;
     flex: 1 0 auto;
 }
@@ -92,19 +97,23 @@ a {
     color: #1F2937;
     display: flex;
     justify-content: center;
-    padding: 26px 0;
+    flex-wrap: wrap;
+    text-align: center;
+
 }
 
 .info-container {
     display: flex;
     justify-content: center;
-    gap: 35px;
+    gap: 60px;
+    flex-wrap: wrap;
 
 }
 .main {
     display: flex;
     flex-direction: column;
-    padding: 0 150px 100px;
+    padding: 25px 150px 100px;
+    gap: 30px;
 }
 
 
@@ -118,7 +127,8 @@ a {
 
 .info {
  display: flex;
- flex-flow: column wrap;
+ flex-direction: column;
+ flex-wrap: wrap;
  width: 125px;
 }
 
@@ -130,7 +140,11 @@ a {
     background-color: #E5E7EB;
     color: #1F2937;
     font-size: 36px;
-    padding: 100px;
+    padding: 75px 250px;
+    display: flex;
+    flex-flow: column wrap;
+    justify-content: center;
+    align-items: center;
 }
 
 .quote .attribute {
